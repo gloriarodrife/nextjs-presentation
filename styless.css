@@ -1,0 +1,94 @@
+:root {
+  --bg-color: #f4f7f4;
+  --text-color: #2c3e35;
+  --primary-green: #1b4332;
+  --accent-green: #2d6a4f;
+  --neon-glow: rgba(45, 106, 79, 0.2);
+}
+
+.slidev-layout {
+  background: linear-gradient(135deg, #f4f9f4 0%, #e8f5e9 100%);
+  color: var(--text-color);
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Títulos con la línea de acento de la web */
+.slidev-layout h1 {
+  color: var(--primary-green);
+  letter-spacing: -0.5px;
+}
+
+.slidev-layout h2 {
+  color: var(--primary-green);
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.slidev-layout h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 50px;
+  height: 4px;
+  background: var(--accent-green);
+  border-radius: 2px;
+}
+
+/* Tarjetas tipo "glass" como en la web */
+.card {
+  padding: 1.25rem 1.5rem;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(27, 67, 50, 0.08);
+}
+
+.card h3 {
+  color: var(--accent-green);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.card p,
+.card li {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+.card strong {
+  color: var(--primary-green);
+}
+
+/* Listas con ⚡ */
+.bolt ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bolt li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.7rem;
+}
+
+.bolt li::before {
+  content: '⚡';
+  position: absolute;
+  left: 0;
+}
+
+/* Animaciones suaves para v-click (despliegue progresivo de tablas y tarjetas) */
+.slidev-vclick-target {
+  transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1), transform 0.45s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0 !important;
+  transform: translateY(6px);
+  pointer-events: none;
+}
