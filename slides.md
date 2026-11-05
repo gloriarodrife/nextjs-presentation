@@ -274,7 +274,7 @@ layoutClass: gap-12
 ### Next.js
 
 <p class="min-h-[44px] text-gray-700 leading-relaxed mb-3">
-  The server sends the page <strong>already built</strong>. Cont~ent is visible to users and SEO (Search Engine Optimization) right away.
+  The server sends the page <strong>already built</strong>. Content is visible to users and SEO (Search Engine Optimization) right away.
 </p>
 
 ```html
@@ -453,13 +453,106 @@ export default async function Products() {
 <div class="card bolt mt-4">
 
 - **Faster for the user:** the data is fetched before the page arrives
-- **Lighter for the device:** the server does the heavy work, not the phone
+- **Lighter for the device:** the server, not the phone, does the heavy work
 - **Safer:** passwords and API keys stay on the server, never in the browser
 - **Better for the browser:** it receives the finished content
 
 </div>
 
 </div>
+
+---
+class: flex flex-col
+---
+
+## Who is using Next.js? 🌍
+
+<div class="my-auto">
+
+<div class="grid grid-cols-3 gap-3.5">
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">🎵</span>
+        <span class="font-bold text-gray-800 text-xs">TikTok</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Streaming</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      Powers their web experience and creator portals for millions of daily active users.
+    </p>
+  </div>
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">🎮</span>
+        <span class="font-bold text-gray-800 text-xs">Twitch</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Live Video</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      Fast channel discovery and lightning-speed navigation across live gaming streams.
+    </p>
+  </div>
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">👟</span>
+        <span class="font-bold text-gray-800 text-xs">Nike</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">E-Commerce</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      Instant product page loads on mobile phones, maximizing checkout conversion rates.
+    </p>
+  </div>
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">📝</span>
+        <span class="font-bold text-gray-800 text-xs">Notion</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Productivity</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      SEO-optimized public workspaces and shared documentation rendered with high speed.
+    </p>
+  </div>
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">🎬</span>
+        <span class="font-bold text-gray-800 text-xs">Hulu</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Entertainment</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      High-converting signup pages and show catalogs delivered with server rendering.
+    </p>
+  </div>
+
+  <div class="card p-3 hover:scale-[1.02] hover:border-emerald-600/40 transition-all duration-300">
+    <div class="flex items-center justify-between mb-1.5">
+      <div class="flex items-center gap-1.5">
+        <span class="text-base">🤖</span>
+        <span class="font-bold text-gray-800 text-xs">OpenAI</span>
+      </div>
+      <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">AI Platform</span>
+    </div>
+    <p class="text-[11px] text-gray-600 leading-snug m-0">
+      Interactive web interfaces and real-time streaming responses powered by Next.js.
+    </p>
+  </div>
+
+</div>
+
+</div>
+
 ---
 layout: center
 class: text-center
